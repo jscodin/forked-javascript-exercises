@@ -1,7 +1,4 @@
 const sumAll = function(num1, num2) {
-  /*if (num1 || num2 < 0) {
-    return "ERROR";
-  }*/
   let sum = 0;
 
   if (num1 > num2) {
@@ -13,6 +10,11 @@ const sumAll = function(num1, num2) {
       sum = sum + i;
     }
   }
+
+  if (num1 || num2 < 0) {
+    return "ERROR";
+  }
+
   return sum;
 };
 
