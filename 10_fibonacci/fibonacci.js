@@ -1,4 +1,12 @@
-const fibonacci = function() {
+const fibonacci = function(num) {
+
+  let fib = 0;
+
+  for (let i = 1; i <= num; i++) {
+
+
+  }
+
 
 };
 
