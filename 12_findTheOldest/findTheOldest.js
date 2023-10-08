@@ -1,4 +1,13 @@
-const findTheOldest = function() {
+const findTheOldest = function(arr) {
+
+
+  // const result = arr.map((x) => x.name);
+  // console.log(result);
+  console.log(arr[1]);
+  let date = new Date();
+  console.log(date);
+  if (arr[0])
+
 
 };
 
